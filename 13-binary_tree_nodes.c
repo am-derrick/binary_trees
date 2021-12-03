@@ -19,7 +19,7 @@ int binary_tree_leaf(const binary_tree_t *node)
  *
  * Return: numberr, otherwise 0
  */
-size_t binary_tree_nodes(const binsry_tree_t *tree)
+size_t binary_tree_nodes(const binary_tree_t *tree)
 {
 	size_t left, right;
 
