@@ -18,7 +18,8 @@ int binary_tree_leaf(const binary_tree_t *node)
  * @tree: pointer to root node of tree
  *
  * Return: number of leaves, 0 if tree is NULL
- */size_T binary_tree_leaves(Const binary_tree_t *tree)
+ */
+size_t binary_tree_leaves(const binary_tree_t *tree)
  {
 	 size_t left, right;
 
